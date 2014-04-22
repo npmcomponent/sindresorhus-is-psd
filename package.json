@@ -1,24 +1,7 @@
 {
-  "name": "is-psd",
-  "version": "0.1.0",
+  "name": "sindresorhus-is-psd",
   "description": "Check if a Buffer/Uint8Array is a PSD image",
-  "license": "MIT",
-  "repository": "sindresorhus/is-psd",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha",
-    "browser": "browserify -s $npm_package_name -o browser.js ."
-  },
-  "files": [
-    "index.js"
-  ],
+  "version": "0.1.0",
   "keywords": [
     "psd",
     "photoshop",
@@ -38,9 +21,6 @@
     "buffer",
     "uint8array"
   ],
-  "devDependencies": {
-    "browserify": "^3.0.0",
-    "mocha": "*",
-    "read-chunk": "^0.1.0"
-  }
+  "dependencies": {},
+  "license": "MIT"
 }
